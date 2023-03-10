@@ -16,5 +16,6 @@ public class ShapeRunner {
     // set the frame so that when the user closes the window
     // using the X button in the top right, the program stops
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
   }
 }
