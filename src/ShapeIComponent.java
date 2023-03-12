@@ -31,7 +31,7 @@ public class ShapeIComponent extends JComponent {
     this.height = height;
     shapes = new ArrayList<Shape>();
     currShapeType = Shape.RECTANGLE;
-    backgroundColor = Color.YELLOW;
+    backgroundColor = Color.GREEN;
     
     init();  // call helper method to do rest of setup
   }
@@ -145,6 +145,8 @@ public class ShapeIComponent extends JComponent {
         currentShape = new Oval();
       }else if(currShapeType.equals(Shape.ARC)){
         currentShape = new Arc();
+      }else if(currShapeType.equals(Shape.LINE)){
+        currentShape = new Line();
       }
       
       // set point 1 in the new shape

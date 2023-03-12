@@ -6,8 +6,8 @@ public class Arc extends Shape{
 
     public Arc(){
         super();
-        startAngle = 30;
-        arcAngle = 70;
+        startAngle = 45;
+        arcAngle = 45;
     }
 @Override
     public void draw(Graphics g){
